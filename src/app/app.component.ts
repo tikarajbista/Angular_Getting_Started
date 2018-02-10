@@ -4,10 +4,11 @@ import { Component } from '@angular/core';
   template: `
     <div>
       <h1>{{title}}</h1>
-      <div>My First Component</div>
+      <rs-products></rs-products>
     </div>
   `
 })
 export class AppComponent {
   title: string = 'Room Sewa';
+ 
 }
